@@ -1,6 +1,6 @@
 # NodeJS - MongoDB - Auth API
 
-Bu, NodeJS,MongoDB kullanarak oluşturulmuş bir proje örneğidir.
+Bu, NodeJS,MongoDB kullanarak oluşturulmuş bir Auth Api proje örneğidir.
 
 ## Gereksinimler
 
