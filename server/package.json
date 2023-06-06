@@ -1,0 +1,40 @@
+{
+  "name": "bestfans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest test",
+    "coverage": "nyc --reporter=lcov --reporter=text npm run test",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "nyc": {
+    "exclude": "models"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "htmlspecialchars": "^1.0.5",
+    "jsonwebtoken": "^9.0.0",
+    "md5": "^2.3.0",
+    "moment": "^2.29.4",
+    "mongoose": "^7.1.0",
+    "nanoid": "^4.0.2",
+    "nodemailer": "^6.9.3",
+    "nyc": "^15.1.0",
+    "ua-parser-js": "^1.0.35",
+    "uniqid": "^5.4.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
